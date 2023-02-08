@@ -28,3 +28,8 @@ git push -u origin main
 - `git log` : see history of git commit
 - `git log --branches` : see history of all branchs' git commits
 
+## Merge
+- `git checkout main` : go to main branch first
+- `git merge 'branch name'` : then merge sub-branch to the main branch
+- `git branch -d 'branch name'` : lastly, delete the merged branch
+- 'git branch -D 'branch name'` : to delete UNMERGED branch
