@@ -19,3 +19,8 @@ git branch -M main
 git push -u origin main
 ```
 
+- Branches
+```
+git branch # list branches
+git branch 'name' // create branch
+```
