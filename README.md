@@ -21,7 +21,7 @@ git push -u origin main
 
 - Branches
 ```
-git branch ###list branches
+git branch <!-- list branches -->
 git branch 'name' ###create branch
 git checkout 'branch name' ###go to branch
 git checkout -b 'branch name' ###create and go to branch
