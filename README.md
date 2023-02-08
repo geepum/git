@@ -32,4 +32,4 @@ git push -u origin main
 - `git checkout main` : go to main branch first
 - `git merge 'branch name'` : then merge sub-branch to the main branch
 - `git branch -d 'branch name'` : lastly, delete the merged branch
-- 'git branch -D 'branch name'` : to delete UNMERGED branch
+- `git branch -D 'branch name'` : to delete UNMERGED branch
