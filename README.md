@@ -24,9 +24,6 @@ git push -u origin main
 - `git checkout 'branch name'` : go to branch
 - `git checkout -b 'branch name'` : create and go to branch
 
-## Head
-- `git reset --hard 'commit id' : move back to a specific commit and delete modifications
-
 ## Git log
 - `git log` : see history of git commit
 - `git log --branches` : see history of all branchs' git commits
@@ -36,3 +33,7 @@ git push -u origin main
 - `git merge 'branch name'` : then merge sub-branch to the main branch
 - `git branch -d 'branch name'` : lastly, delete the merged branch
 - `git branch -D 'branch name'` : to delete UNMERGED branch
+
+## For my own convenience
+- `git reset --hard 'commit id' : move back to a specific commit and delete modifications
+- `git push -u origin +'branch name'` : forcefully push ignoring errors
