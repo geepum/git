@@ -24,6 +24,9 @@ git push -u origin main
 - `git checkout 'branch name'` : go to branch
 - `git checkout -b 'branch name'` : create and go to branch
 
+## Head
+- `git reset --hard 'commit id' : move back to a specific commit and delete modifications
+
 ## Git log
 - `git log` : see history of git commit
 - `git log --branches` : see history of all branchs' git commits
